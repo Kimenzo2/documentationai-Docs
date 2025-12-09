@@ -1,0 +1,116 @@
+---
+title: Creating Stories and Lessons
+description: Detailed instructions on using Genesis to generate customized content, from inputting ideas to selecting styles and refining outputs for various genres.
+---
+
+## Overview
+
+Genesis empowers you to create high-quality, customized lessons and stories tailored to any audience. Describe your idea in natural language, select a visual style and genre, and let AI generate professional ebooks. Whether building children's tales, sci-fi adventures, or brand narratives, follow these steps to produce engaging content quickly.
+
+<Columns cols={3}>
+  <Card title="Children's Stories" icon="book-open" href="#">
+    Create magical tales with vibrant illustrations for young readers.
+  </Card>
+  <Card title="Sci-Fi Novels" icon="zap" href="#">
+    Build epic futures with dynamic visuals and intricate plots.
+  </Card>
+  <Card title="Brand Stories" icon="trending-up" href="#">
+    Craft compelling narratives that align with your brand voice.
+  </Card>
+</Columns>
+
+## Step-by-Step Creation Process
+
+Follow these structured steps to generate your first story.
+
+<Steps>
+  <Step title="Describe Your Story Idea" icon="edit-3">
+    Enter a detailed prompt outlining characters, plot, setting, and theme. Be specific for better results.
+
+    <CodeGroup tabs="Basic,Advanced">
+      ```text
+      A brave fox helps a lost bunny find its way home in an enchanted forest.
+      ```
+
+      ```text
+      Genre: Children's adventure. Protagonist: Sly fox named Finn. Conflict: Storm separates bunny Lila from family. Resolution: Teamwork through glowing mushrooms. Moral: Friendship overcomes fear.
+      ```
+    </CodeGroup>
+  </Step>
+
+  <Step title="Choose Visual Style and Genre" icon="palette">
+    Select from predefined styles like whimsical, futuristic, or minimalist. Match genres such as fantasy, sci-fi, or educational.
+
+    <Tabs>
+      <Tab title="Children's" icon="heart">
+        Vibrant colors, rounded characters, playful layouts for ages 3-8.
+      </Tab>
+      <Tab title="Sci-Fi" icon="rocket">
+        Neon accents, metallic textures, space-age fonts for immersive worlds.
+      </Tab>
+      <Tab title="Brand" icon="briefcase">
+        Custom colors (e.g., `{brandColor: "#3B82F6"}`), logos, professional typography.
+      </Tab>
+    </Tabs>
+  </Step>
+
+  <Step title="Generate Content" icon="sparkles">
+    Click Generate to let AI process your inputs. Expect 1-5 minutes depending on length.
+
+    ```mermaid
+    graph TD
+        A[Your Prompt] --> B[Style Selection]
+        B --> C[AI Generation]
+        C --> D[Preview Story]
+        D --> E[Edit or Export]
+    ```
+
+    <Callout kind="tip">
+      Start with shorter stories (`<500 words`) for faster iterations.
+    </Callout>
+  </Step>
+
+  <Step title="Edit and Iterate" icon="settings">
+    Review the output, tweak text or visuals, and regenerate sections.
+
+    Use inline editors for:
+    - Text refinements
+    - Image swaps
+    - Page additions/removals
+  </Step>
+</Steps>
+
+## Advanced Editing and Customization
+
+Fine-tune outputs for perfection.
+
+<ExpandableGroup>
+  <Expandable title="Custom Prompts" default-open="true">
+    Enhance generations with structured inputs:
+
+    ```json
+    {
+      "plot": "Hero's journey",
+      "length": "20 pages",
+      "audience": "ages 6-10",
+      "visualStyle": "watercolor"
+    }
+    ```
+
+    Experiment with parameters like tone (`humorous`) or pacing (`fast-paced`).
+  </Expandable>
+
+  <Expandable title="Multi-Language Support">
+    Generate in Spanish, French, or others by specifying in your prompt.
+  </Expandable>
+</ExpandableGroup>
+
+## Best Practices
+
+- Use vivid, descriptive language in prompts for richer visuals.
+- Iterate 2-3 times: Refine prompts based on previews.
+- Export as PDF or EPUB for sharing.
+
+<Callout kind="success">
+  Your first story generates in under 10 minutes. Share via link or download instantly.
+</Callout>

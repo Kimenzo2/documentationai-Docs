@@ -1,0 +1,117 @@
+---
+title: Getting Started with Genesis
+description: A step-by-step guide to signing up, setting up your account, and exploring the dashboard to begin creating your first visual lesson or story.
+---
+
+## Overview
+
+Genesis empowers you to create stunning visual lessons and stories tailored to any audience. Whether you're crafting children's tales, sci-fi adventures, or brand narratives, the platform uses AI to generate professional ebooks with custom visuals. Follow these steps to get started quickly and launch your first project.
+
+<Callout kind="tip">
+  New users receive 5 free story generations to explore features without commitment.
+</Callout>
+
+## Create Your Account
+
+Begin by signing up for a free account. Genesis supports multiple login methods for seamless access.
+
+<Tabs>
+  <Tab title="Email Signup" icon="mail">
+    Visit `genesis.ai` and click **Sign Up**.
+
+    1. Enter your email and create a strong password.
+    2. Verify your email via the confirmation link.
+    3. Complete the quick onboarding quiz about your preferred genres.
+  </Tab>
+  <Tab title="Google" icon="google">
+    Click **Continue with Google** on the login page.
+    
+    Genesis securely integrates with Google for instant access—no passwords needed.
+  </Tab>
+  <Tab title="Apple" icon="apple">
+    Select **Sign in with Apple**.
+    
+    Your data remains private with Apple's privacy-focused authentication.
+  </Tab>
+</Tabs>
+
+## Explore the Dashboard
+
+Once logged in, the dashboard provides one-click access to core features. Use the sidebar to navigate efficiently.
+
+<Columns cols={3}>
+  <Card title="Story Generator" icon="book-open" href="/dashboard/stories">
+    Describe your idea and select a visual style to generate lessons instantly.
+  </Card>
+  <Card title="Visual Styles" icon="image" href="/dashboard/styles">
+    Choose from 20+ themes like watercolor, cyberpunk, or minimalist.
+  </Card>
+  <Card title="My Projects" icon="folder" href="/dashboard/projects">
+    Manage, edit, and export your created ebooks.
+  </Card>
+</Columns>
+
+## Configure Initial Preferences
+
+Set your default preferences to streamline future projects. These apply across all generations.
+
+<Steps>
+  <Step title="Access Settings" icon="settings">
+    Click your profile icon in the top-right and select **Preferences**.
+  </Step>
+  <Step title="Choose Genres" icon="genres">
+    Select primary genres like `children`, `sci-fi`, or `educational`.
+
+    ```json
+    {
+      "defaultGenre": "children",
+      "targetAudience": "ages 4-8",
+      "visualStyle": "watercolor"
+    }
+    ```
+  </Step>
+  <Step title="Set Export Format" icon="download">
+    Pick `PDF`, `EPUB`, or `interactive web` as your default output.
+  </Step>
+</Steps>
+
+<Expandable title="Advanced Preferences" default-open="false">
+  Customize AI parameters for more control:
+
+  <CodeGroup tabs="JSON,YAML">
+  ```json
+  {
+    "maxPages": 20,
+    "imageResolution": "high",
+    "narratorVoice": "friendly"
+  }
+  ```
+  ```yaml
+  maxPages: 20
+  imageResolution: high
+  narratorVoice: friendly
+  ```
+  </CodeGroup>
+</Expandable>
+
+## Launch Your First Project
+
+Ready to create? Start a new visual story in under 2 minutes.
+
+<Steps>
+  <Step title="New Project" icon="plus">
+    Click **Create Story** on the dashboard.
+  </Step>
+  <Step title="Enter Prompt" icon="edit">
+    Type a description: `"A curious fox discovers a hidden forest library and learns magic."`
+  </Step>
+  <Step title="Generate & Review" icon="zap">
+    Select style, hit **Generate**, then edit text or visuals before exporting.
+  </Step>
+</Steps>
+
+<Callout kind="success">
+  Your first generation completes in `<60` seconds. Share via link or download as ebook.
+</Callout>
+
+Congratulations—you're now creating magical visual lessons with Genesis! Explore more in the dashboard to unlock advanced features like collaborative editing and custom AI training.

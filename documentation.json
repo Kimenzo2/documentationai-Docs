@@ -1,0 +1,82 @@
+{
+  "name": "Genesis Documentation",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#3B82F6"
+    },
+    "dark": {
+      "brand": "#6ca1f8"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "play"
+              }
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "icon": "lightbulb",
+            "pages": [
+              {
+                "title": "Features",
+                "path": "features",
+                "icon": "file-text"
+              }
+            ]
+          },
+          {
+            "group": "Story Creation",
+            "icon": "puzzle",
+            "pages": [
+              {
+                "title": "Creating Stories",
+                "path": "creating-stories",
+                "icon": "book"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "icon": "terminal",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
